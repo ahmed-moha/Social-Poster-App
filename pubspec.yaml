@@ -1,0 +1,28 @@
+name: social_app
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.15.1 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  http: ^0.13.4
+  modal_progress_hud_nsn: ^0.1.0-nullsafety-1
+  provider: 6.0.2
+  get_storage: ^2.0.3
+  after_layout: ^1.1.0
+  jiffy: ^5.0.0
+  
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - assets/images/
+  uses-material-design: true
+
